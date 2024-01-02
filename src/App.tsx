@@ -1,13 +1,15 @@
 import React from "react";
 import { Home } from "./Pages";
 import { Footer, Header } from "./Components";
+import { Box } from "@mui/material";
 
 function App() {
   return (
-    <div className="App">
+    <Box className="App" sx={{ mx: 12 }}>
       <Header />
       <Home />
-    </div>
+      <Footer />
+    </Box>
   );
 }
 

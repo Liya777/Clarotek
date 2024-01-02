@@ -14,8 +14,8 @@ const ImgCard = ({ heading, content }: ImgCardProp) => {
     <Card>
       <CardMedia
         sx={{ height: 140 }}
-        image={require("../Assets/img1.svg")}
-        title="green iguana"
+        image="/Assets/img2.png"
+        title="card img"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">

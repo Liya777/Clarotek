@@ -53,7 +53,7 @@ const Header = () => {
   // const container = window !== undefined ? () => Window : undefined;
 
   return (
-    <Box sx={{ display: "flex" }}>
+    <Box>
       <CssBaseline />
       <AppBar component="nav" sx={{ backgroundColor: "#ff7f00" }}>
         <Toolbar>

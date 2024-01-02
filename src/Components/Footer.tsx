@@ -1,14 +1,14 @@
 import React from "react";
-import { Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 
 const Footer = () => {
   return (
-    <>
+    <Box sx={{ position: "relative", bottom: 0 }}>
       <Typography>Footer Page</Typography>
       <Typography>Footer Page</Typography>
       <Typography>Footer Page</Typography>
       <Typography>Footer Page</Typography>
-    </>
+    </Box>
   );
 };
 
